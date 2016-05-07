@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
 
     private float health;
 
-    public Text healthText;
+    public TextMesh healthText;
 
 	// Use this for initialization
 	void Start () {
@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour {
     {
         if(healthText != null)
         {
-            healthText.text = "" + health;
+            healthText.text = "Health: " + health;
         }
     }
 }
