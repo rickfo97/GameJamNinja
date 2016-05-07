@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 73d5d79effb76f84491567f3c473b810
+<<<<<<< HEAD
+timeCreated: 1462573977
+=======
+timeCreated: 1462573942
+>>>>>>> cd5dfe786c6f50fd646278b1b762ecbd1ae9ed14
+licenseType: Free
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 0
+      settings: {}
+    Editor:
+      enabled: 1
+      settings:
+        CPU: x86
+        DefaultValueInitialized: true
+        OS: Windows
+    Win:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+    Win64:
+      enabled: 1
+      settings:
+        CPU: None
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
