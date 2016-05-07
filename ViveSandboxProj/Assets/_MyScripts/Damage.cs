@@ -15,9 +15,11 @@ public class Damage : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Target")
+        Debug.Log("Collision");
+
+        if(other.tag == "Player")
         {
-            Destroy(other);
+            Destroy(gameObject);
             GameManager.gm.changeHealth(-10);
         }
     }
