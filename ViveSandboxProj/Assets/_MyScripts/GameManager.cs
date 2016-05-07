@@ -7,8 +7,13 @@ public class GameManager : MonoBehaviour {
     public static GameManager gm;
     private float score;
     private float health;
+<<<<<<< HEAD
     public Text scoreText;
     public Text healthText;
+=======
+
+    public TextMesh healthText;
+>>>>>>> f197196edad334760742ea9cc47d08f6f6847e0f
 
   
 
@@ -58,7 +63,7 @@ public class GameManager : MonoBehaviour {
     {
         if(healthText != null)
         {
-            healthText.text = "" + health;
+            healthText.text = "Health: " + health;
         }
     }
 }
