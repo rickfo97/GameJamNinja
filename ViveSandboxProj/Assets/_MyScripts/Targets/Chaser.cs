@@ -13,10 +13,9 @@ public class Chaser : MonoBehaviour
         if (target == null)
         {
 
-            if (GameObject.FindWithTag("Katana") != null)
+            if (GameObject.FindWithTag("Player") != null)
             {
-                Debug.Log("Found Katana!");
-                target = GameObject.FindWithTag("Katana").GetComponent<Transform>();
+                target = GameObject.FindWithTag("Player").GetComponent<Transform>();
             }
         }
     }
